@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/nameless-forest-97520 -Dhttp.port=9000 -Dplay.crypto.secret=yfhewofu89403jrtid9svj54
+web: target/universal/stage/bin/camapp -Dhttp.port=${PORT} -Dplay.crypto.secret=${APPLICATION_SECRET}
