@@ -1,11 +1,13 @@
 logs
 target
+.sbtserver
 /.idea
 /.idea_modules
 /.classpath
 /.project
 /.settings
-/.sbtserver
+/project/.sbtserver
 /RUNNING_PID
 /execrun.bat
 /execui.bat
+/gitbash.bat
