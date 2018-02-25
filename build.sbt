@@ -14,3 +14,7 @@ libraryDependencies ++= Seq(
 
 
 fork in run := true
+
+EclipseKeys.projectFlavor := EclipseProjectFlavor.Java
+EclipseKeys.createSrc := EclipseCreateSrc.ValueSet(EclipseCreateSrc.ManagedClasses, EclipseCreateSrc.ManagedResources)
+EclipseKeys.preTasks := Seq(compile in Compile)
