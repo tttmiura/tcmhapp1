@@ -15,3 +15,5 @@
 
 - project名の変更
 - Githubとheroku連動
+ - [参考](https://j-hack.gitbooks.io/deploy-meteor-app-to-heroku/content/step4.html)
+ 
